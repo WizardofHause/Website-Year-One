@@ -4,5 +4,28 @@ body {
 h1,
 h2 {
     color: gold;
-    text-align: center
+    text-align: center;
+}
+button {
+    color: blue;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+button:hover {
+    color: gold;
+    background-color: black;
+}
+.gibberish {
+    color: purple;
+    text-emphasis: bold;
+}
+p {
+    color: gold;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;
+    height: 228px;
+    width: 438px;
 }
